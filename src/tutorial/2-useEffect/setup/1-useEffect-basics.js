@@ -11,6 +11,10 @@ const UseEffectBasics = () => {
    useEffect(() => {
       setResultValue(value);
    }, [value1]);
+   // teste de como o useffect funciona
+   // usando a atualizacao de um valor com o useEffect que so
+   //atualiza quando um certo valor é atualizado setado como segundo
+   //argumento da funcao independente do que esta em seu interior
    return (
       <>
          <h2>useEffect Basics</h2>
